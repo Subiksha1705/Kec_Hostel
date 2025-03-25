@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+* {
+    /* Change your font family */
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+a{
+    margin: 0px 25px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1;
+    border-color: gray;
+    border-radius: 20px;
+    background-color: white; /* Default background color */
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out; /* Transition for background color change */
+    position: relative;
+    overflow: hidden;
+  }
+
+  .button:hover {
+    background-color: red; /* Background color on hover */
+    color: white;
+  }
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: rgba(204, 0, 0, 0.6);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgba(204, 0, 0, 0.6);
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: rgba(204, 0, 0, 0.6);
+}
+
+.filter-section{
+	position: relative;
+	padding-top: 10px;
+	
+}
